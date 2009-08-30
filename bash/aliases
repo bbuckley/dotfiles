@@ -1,0 +1,26 @@
+alias reload="source ~/.bashrc"
+alias d="cd ~/Desktop"
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin 
+alias lsd="ls -d */"
+alias h=history
+alias m="mate ."
+alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
+alias tu="top -o cpu"
+alias tm="top -o vsize"
+alias ss="./script/server"
+alias gp="git pull"
+
+alias ff='open -a Firefox'
+alias o='open .'
+alias c='clear'
+
+function new {
+  mkdir $1
+  cd $1
+}
+
+dict() { 
+  curl dict://dict.org/d:$1
+}
+
+

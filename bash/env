@@ -1,0 +1,5 @@
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH  
+export PATH=$PATH:~/bin  
+export LC_CTYPE=en_US.UTF-8
+export RUBYOPT=rubygems
+export EDITOR="mate -w"
