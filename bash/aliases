@@ -8,7 +8,9 @@ alias ea="mate -w ~/bin/dotfiles/bash/aliases && reload"
 alias tu="top -o cpu"
 alias tm="top -o vsize"
 alias ss="./script/server"
+
 alias gp="git pull"
+alias gs="git status"
 
 alias ff='open -a Firefox'
 alias o='open .'
